@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Table from './Table';
+import LineChart from './LineChart';
 
-function App() {
+const App = () => {
+  const [view, setView] = useState('table');
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="header">
+        <h1>Olympic Medals Analysis</h1>
+        <p>Email: your.email@example.com</p>
+        <p>Contact: 123-456-7890</p>
+      </div>
+      <div className="tabs">
+        <button 
+          className={`tab ${view === 'table' ? 'active' : ''}`} 
+          onClick={() => setView('table')}
         >
-          Learn React
-        </a>
-      </header>
+          Table
+        </button>
+        <button 
+          className={`tab ${view === 'chart' ? 'active' : ''}`} 
+          onClick={() => setView('chart')}
+        >
+          Line Chart
+        </button>
+      </div>
+      <div className="content">
+        {view === 'table' ? <Table /> : <LineChart />}
+      </div>
     </div>
   );
 }
