@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pro-zero-carbon/static/css/main.233c8f93.css",
+    "main.js": "/pro-zero-carbon/static/js/main.593e839e.js",
+    "static/js/453.dd53e008.chunk.js": "/pro-zero-carbon/static/js/453.dd53e008.chunk.js",
+    "index.html": "/pro-zero-carbon/index.html",
+    "main.233c8f93.css.map": "/pro-zero-carbon/static/css/main.233c8f93.css.map",
+    "main.593e839e.js.map": "/pro-zero-carbon/static/js/main.593e839e.js.map",
+    "453.dd53e008.chunk.js.map": "/pro-zero-carbon/static/js/453.dd53e008.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.233c8f93.css",
+    "static/js/main.593e839e.js"
+  ]
+}
