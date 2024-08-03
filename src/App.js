@@ -8,10 +8,13 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>ASHISH RAJA</h1>
       <div className="header">
-        <h1>Olympic Medals Analysis</h1>
-        <p>Email: your.email@example.com</p>
-        <p>Contact: 123-456-7890</p>
+        
+       <u> <h2>Olympic Medals Analysis</h2></u>
+
+        <a>Email: ashishrajanagabathula@gmail.com</a>
+        <p>Contact: +91-8143020249</p>
       </div>
       <div className="tabs">
         <button 
